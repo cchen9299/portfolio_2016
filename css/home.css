@@ -1,0 +1,172 @@
+main{
+    height:100%;
+}
+.hero{
+    background-image:url(../home1.jpg);
+    //background-color: #b3ffff;
+    width:100%;
+    min-height:100%;
+    background-position:center;
+    background-size: cover;
+    display:table
+    
+}
+.hero h1, .hero p{
+    margin:0 auto;
+}
+.hero h1{
+    color:white;
+    opacity:.5;
+    margin:0 auto;
+}
+p{
+    color:rgba(255,255,255,.8);
+}
+.hero .backdrop{
+    background-color:rgba(0,0,0,.7);
+    padding: 50px 0;
+    width:60%;
+    margin:auto;
+    vertical-align: middle;
+    display:block;
+}
+.floater{
+    height:150px;
+}
+
+
+.workContainers{
+    margin: 0 0 50px;
+}
+.workBlock{
+    padding: 50px 0;
+}
+.work{
+    float:left;
+    height:200px;
+    width:200px;
+    background-size: cover;
+    text-align: center;
+    margin:1px;
+}
+.work .curtain{
+    width:100%;
+    height:100%;
+    opacity:0;
+    background-color:black;
+    color:white;
+    transition:.5s;
+    cursor:pointer;
+    line-height: 160px;
+    display:inline-block;
+}
+.curtain:hover{
+    opacity:.8;
+}
+
+.thesis{
+    background-image:url(../projects/arch/thesis/thesis.jpg);
+    background-position:center;
+}
+.dwelling{
+    background-image:url(../projects/arch/Dwelling/dwelling.png);
+}
+.archive{
+    background-image:url(../projects/arch/Archive/Archive.png);
+    background-position:center;
+}
+.fold{
+    background-image:url(../projects/arch/fold/Folded%20plates.jpg);
+}
+.mixedUse{
+    background-image:url(../projects/arch/511/511.jpg);
+}
+.warehouse{
+    background-image:url(../projects/arch/Warehouse/Clerks%20Warehouse.jpg);
+}
+.office{
+    background-image:url(../projects/arch/Office/Clerks%20Work.jpg);
+}
+.graphics{
+    background-image:url(../projects/arch/Graphics/Graphics.png);
+}
+.industrial{
+    background-image:url(../projects/arch/Industrial/Keypad-2.jpg);
+}
+.foundation{
+    background-image:url(../projects/arch/1st/naef.png);
+}
+
+.BlocShop{
+    background-image:url(../projects/bloc/shop/Blocshop.png);
+}
+.BlocJams{
+    background-image:url(../projects/bloc/jams/BlocJams.png);
+}
+.BlocBox{
+    background-image:url(../projects/bloc/box/Blocbox.png);
+}
+.PayCrave{
+    background-image:url(../projects/bloc/crave/PayCrave.png);
+}
+.BlocStarter{
+    background-image:url(../projects/bloc/starter/BlocStarter.png);
+}
+
+
+
+footer{
+    clear:both;
+}
+footer li{
+    display:inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer ul{
+    margin:0;
+}
+footer h5{
+    margin:15px
+}
+
+
+@media(max-width:768px){
+    .hero .backdrop{
+        width:80%;
+    }
+    .floater{
+        height:140px;
+    }
+    
+}
+@media(min-width:768px){
+    
+    .hero h1, .hero p{
+        width:80%;
+    }
+    .workContainers{
+        width:50%
+    }
+    .hero .backdrop{
+        width:80%;
+    }
+    .floater{
+        height:40px;
+    }
+}
+@media(min-width:1200px){
+    .workContainers{
+        width:50%
+    }
+    .hero .backdrop{
+        width:60%;
+    }
+    .floater{
+        height:170px;
+    }
+}
+
+
+

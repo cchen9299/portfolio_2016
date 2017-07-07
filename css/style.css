@@ -1,0 +1,126 @@
+h1,h3,h5,li{
+   font-family: "Varela Round", Helvetica, Arial, sans-serif;
+}
+h1{
+    font-size:72px;
+}
+html,body{
+    height:100%;
+}
+html{
+}
+body{
+    padding:0;
+    margin:0;
+}
+p{
+   font-family: "lato",Helvetica, Arial, sans-serif;
+    font-size:20px;
+    font-weight:300;
+    text-align: justify;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+main{
+    clear:both;
+}
+ul{
+    list-style: none;
+}
+section{
+    clear:both;
+    width:91%;
+    margin:0 auto;
+}
+nav{
+    width:100%;
+    background-color:rgba(255,255,255,.9);
+    position:fixed;
+    z-index: 1;
+    line-height: 0;
+}
+nav ul{
+    list-style:none;
+    float:right;
+    width:100%;
+    margin:0 auto;
+}
+nav li{
+    display:inline-block;
+    margin: 0 5px;
+}
+nav h3, nav img{
+    float:left;
+}
+nav .extraSpace{
+    padding: 0 0 0 20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+nav li a:hover{
+    color:grey;
+}
+
+footer{
+    margin:0 auto;
+}
+
+@media(max-width:768px){
+    nav h3, nav img, nav ul{
+        float:none;
+        text-align: center;
+    }
+    nav ul{
+        margin:0;
+        padding:0;
+    }
+    nav img{
+        display:block;
+        margin:0 auto;
+    }
+    .left, .right{
+        float:left;
+    }
+    nav h3{
+        display:none;
+    }
+}
+@media (min-width: 768px){
+    section{
+        width:80%;
+    }
+    nav h3{
+        padding: 0 15px
+    }
+    nav img{
+        margin: 0 0 0 10%;
+    }
+    nav ul{
+        width:auto;
+        margin: 0 10% 0 0;
+    }
+    footer{
+        width: 80%;
+    }
+}
+@media (min-width: 1200px){
+    section{
+        width:60%;
+    }
+    footer{
+        width: 60%;
+    }
+    nav img{
+        margin: 0 0 0 20%;
+    }
+    nav ul{
+        width:auto;
+        margin: 0 20% 0 0;
+    }
+}
