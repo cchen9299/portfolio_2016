@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Bloc Base Project</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+    
+
+<body>
+  <nav class="navBar">
+        <a href="index.html" class="logo"><img src="../assets/images/logoWT.png"></a>
+        <ul class="links">
+            <li><a href="browse.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="signIn.html" class="signIn">SignIn</a>
+  </nav>
+    
+    
+  <section class="hero">
+    <img class="mySlides " src="../assets/images/carasol1-1.jpg">
+    <img class="mySlides " src="../assets/images/carasol2.jpg">
+      <img class="mySlides " src="../assets/images/carasol3.jpg">
+      
+    <button class="carasolButton carasolButtonLeft whiteHover" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="carasolButton carasolButtonRight whiteHover" onclick="plusDivs(+1)">&#10095;</button>
+
+    <h1 class="heroTitle">Prints on Prints</h1>
+    <h3 class="heroSub">Hand prints by traditional printing press roller and screen printing</h3>
+    <a href="browse.html" class="button">Shop Now</a>
+    
+    <div class="dots">
+        <span class="carasolDot demo whiteHover" onclick="currentDiv(1)"></span>
+        <span class="carasolDot demo whiteHover" onclick="currentDiv(2)"></span>
+        <span class="carasolDot demo whiteHover" onclick="currentDiv(3)"></span>
+    </div>
+  </section>
+
+  <section class="sellingPoints">
+      <div class="half-column">
+        <h3>FOR SHOPPERS</h3>
+          <span class="ion-wand"></span>
+        <h5>Pick a design</h5>
+          <p>Find a desgin that you love in our collection from designers across the world.</p>
+          <span class="ion-tshirt"></span>
+                           
+        <h5>Choose a media</h5>
+          <p>Great quality prints on any of our provided media. T-shirts, hoodies, paper and even make them into stickers!</p>
+          <span class="ion-ios-body"></span>
+          <h5>Select a size</h5>
+          <p>Whether it's a XXXXXL t-shirt to be hung like a rug or a 8"x8" piece to be framed, we got you.</p>
+      </div>
+      <div class="half-column ">
+        <h3 >FOR DESIGNER</h3>
+          <span class="ion-ios-upload right"></span>
+          <p class="designer rightP">Upload your graphic design and once we have accepted your design, you take a share everytime your design is sold!</p>
+      </div>
+    </section>
+
+  <section class="subscribe">
+    
+    <h5>Subscribe to be the first to learn about new styles and promotions</h5>
+    <input type="text" name="Email" placeholder="Input your email here...">
+      
+    <a href="#" class="button subscribeButton">SUBSCRIBE</a>
+    
+  </section>
+
+  <footer>
+    
+        <ul class="footer-links">
+            <li><h5>BlocShop © 2016</h5></li>
+            <li><a href="shop.html">Privacy Policy</a></li>
+            <li><a href="about.html">Support</a></li>
+            <li><a href="contact.html">Terms and Conditions</a></li>
+        </ul>
+    </footer>
+
+
+
+  <script src="../scripts/carasol.js"></script>
+</body>
+</html>
