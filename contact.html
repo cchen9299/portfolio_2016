@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Hank Chen</title>
+      <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Varela+Round" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    </head>
+    <body>
+        <nav>
+            <a href="../../../index.html">
+                <img src="../../../Logo/Logo%20Fattt%20%5BConverted%5D.png" height=50px>
+                <h3>Hank Chen</h3></a>
+            <ul class="right">
+                <li><a href=index.html><h5>Home</h5></a></li>
+                <li><a href=index.html><h5>Work</h5></a></li>
+                <li><a href=contact.html><h5>Contact</h5></a></li>
+                <li><a href=doodle.html><h5 class="extraSpace">Doodle Thoughts</h5></a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="container">
+              <form action="/action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+              </form>
+            </div>
+
+        
+        
+        </main>
+        <footer>
+            <hr>
+            <h5 class="left">All work © Hank Chen</h5>
+            <ul class="right footerLink">
+                <li>cchen9299@gmail.com</li>
+                <a href="http://facebook.com/rottenmilk"><li class="fa fa-facebook-square fa-2x"></li></a>
+                <a href="http://instagram.com/3xcheng"><li class="fa fa-instagram fa-2x"></li></a>
+            </ul>
+        </footer>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slidesDiv1').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: '.slidesDiv2'
+                })
+                $('.slidesDiv2').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    asNavFor: '.slidesDiv1',
+                    dots: true,
+                    arrows:true,
+                    centerMode: true,
+                    focusOnSelect: true
+                });
+            });
+        </script>
+    </body>
+</html>

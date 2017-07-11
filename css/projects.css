@@ -1,0 +1,33 @@
+nav{
+    position:inherit;
+}
+.mySlides{
+    padding:0 2px;
+}
+.slides{
+    padding: 50px 0;
+}
+.slick-prev:before, .slick-next:before{
+    color:black;
+}
+.buttons{
+    color:white;
+    background-color: darkgrey;
+    padding:5px;
+    border-radius: 5px;
+    width:300px;
+    text-align: center;
+}
+.buttons:hover{
+    opacity:.75;
+}
+.description{
+    padding:100px;
+    
+}
+.description p{
+    margin:0 0 150px
+}
+.mySlides img{
+    max-height:500px;
+}

@@ -115,21 +115,7 @@ p{
 
 
 
-footer{
-    clear:both;
-}
-footer li{
-    display:inline-block;
-    margin: 0 10px;
-    font-size: 12px;
-    font-weight: 200;
-}
-footer ul{
-    margin:0;
-}
-footer h5{
-    margin:15px
-}
+
 
 
 @media(max-width:768px){

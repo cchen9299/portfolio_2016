@@ -42,6 +42,7 @@ nav{
     position:fixed;
     z-index: 1;
     line-height: 0;
+    padding:10px 0 10px;
 }
 nav ul{
     list-style:none;
@@ -70,6 +71,21 @@ nav li a:hover{
 footer{
     margin:0 auto;
 }
+footer{
+    clear:both;
+}
+footer li{
+    display:inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer ul{
+    margin:0;
+}
+footer h5{
+    margin:15px
+}
 
 @media(max-width:768px){
     nav h3, nav img, nav ul{
@@ -86,6 +102,9 @@ footer{
     }
     .left, .right{
         float:left;
+    }
+    .footerLink{
+        float:right;
     }
     nav h3{
         display:none;
