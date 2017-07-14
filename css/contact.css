@@ -24,8 +24,83 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
+
+
+
 .container {
     border-radius: 5px;
     padding: 20px;
     padding: 50px 0;
+    width:70%;
+}
+.container .left{
+    width:25%;
+}.container .right{
+    font-size:18px;
+    width:60%;
+    margin:0;
+}
+@media(max-width:768px){
+    .container .left{
+        float:none;
+        width:50%;
+    }
+    .container .right{
+        float:none;
+        width:100%;
+    }
+    .container {
+        border-radius: 5px;
+        padding: 20px;
+        padding: 50px 0;
+        width:80%;
+    }
+}
+@media (min-width:768px){
+    .container {
+        border-radius: 5px;
+        padding: 20px;
+        padding: 50px 0;
+        width:90%;
+    }
+    .container .left{
+        width:25%;
+    }.container .right{
+        width:60%;
+        margin:0;
+    }
+    .container p{
+        font-size:15px
+    }
+}
+@media (min-width:1200px){
+    .container {
+        border-radius: 5px;
+        padding: 20px;
+        padding: 50px 0;
+        width:70%;
+    }
+    .container p{
+        font-size:18px;
+    }
+}
+.profile img{
+    width:150%;
+}
+.container a{
+    font-weight:400;
+    color:orange;
+}
+a:hover{
+    opacity:.7;
+}
+
+.container h1{
+   font-family: "lato",Helvetica, Arial, sans-serif;
+    padding:0;
+    margin:0;
+}
+.container h3{
+    color:#cccccc;
+    text-decoration:line-through
 }

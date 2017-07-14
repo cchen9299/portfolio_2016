@@ -109,6 +109,10 @@ footer h5{
     nav h3{
         display:none;
     }
+    nav{
+        background-color:rgba(255,255,255,.6);
+        padding:0;
+    }
 }
 @media (min-width: 768px){
     section{
@@ -142,4 +146,19 @@ footer h5{
         width:auto;
         margin: 0 20% 0 0;
     }
+}
+
+
+
+a:hover{
+    opacity:.8;
+}
+
+.clear{
+    clear:both;
+}
+.verticalAlign{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }

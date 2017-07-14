@@ -1,6 +1,4 @@
-nav{
-    position:inherit;
-}
+
 .mySlides{
     padding:0 2px;
 }
@@ -21,13 +19,104 @@ nav{
 .buttons:hover{
     opacity:.75;
 }
-.description{
-    padding:100px;
+
+
+.curtain{
+    background-color:rgba(0,0,0,.5);
+    padding:22% 0;
+}
+.hero h1{
+    color:white;
+    font-family: "lato",Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight:100;
+    padding:0;
+    margin:0
+}
+.hero h2{
+    color:white;
+    text-align: center;
+    font-weight:100;
+    font-size:30px;
+}
+h2{
+    font-family: "lato",Helvetica, Arial, sans-serif;
     
 }
-.description p{
-    margin:0 0 150px
+
+
+.breif{
+    padding:150px 0;
+    width:100%;
+    background-color:#eeeeee;
+    color:#444444;
 }
-.mySlides img{
-    max-height:500px;
+.breif div{
+    width:60%;
+    margin:0 auto;
+}
+
+
+.row h2{
+    padding:150px 0 50px;
+}
+.row > .column{
+    float:left;
+    padding:0;
+    width:32%;
+    margin: 0 .5%;
+    
+}
+
+.column img{
+    width:100%;
+    margin:10px 0;
+    padding:0;
+    margin:2px 0;
+}
+.column{
+    margin:0;
+    padding:0;
+}
+
+@media(max-width:768px){
+    .row{
+        width:90%;
+        margin: 0 auto;
+    }
+    
+}
+@media (min-width:768px){
+    .row{
+        width:80%;
+        margin: 0 auto;
+    }
+    
+}
+@media (min-width:1200px){
+    .row{
+        width:60%;
+        margin: 0 auto;
+    }
+    
+}
+
+.modal{
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(0,0,0,.9) !important;
+}
+.mySlides  img{
+    height:100%;
+    
+}
+.next:hover,.prev:hover{
+    background-color:grey;
+}
+
+
+
+
+.description{
+    padding:50px;
 }

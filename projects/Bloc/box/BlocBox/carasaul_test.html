@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Save, share and collaborate | Blocbox</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Varela+Round" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        margin: auto;
+        width: 75%;
+    }
+
+    .slick-slide {
+      margin: 200px 5px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: #3498DB;
+    }
+
+
+  </style>
+
+
+
+</head>
+
+<body>
+
+
+    <!-- Benefits -->
+    <section class="benefits">
+    <h2>BlocBox</h2>
+      <p>The perfect blend of evernote and Dropbox. <br/>Create notes and adding notes to your file by typing, writing and sketching.</p>
+    
+      <section class="center slider slick-slider">
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-file-o"></i>
+          <h2>Create Notes</h2>
+          <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content</p>
+        </section>
+    </div>
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-picture-o"></i>
+          <h2>Save Images</h2>
+          <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within BlocBox.</p>
+          </section>
+    </div>
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-link"></i>
+          <h2>Add Links</h2>
+          <p>Forget bookmarking sites in your browser. With BlocBox, you can add links, group them and view them from any computer.</p>
+          </section>
+    </div>
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-file-o"></i>
+          <h2>Create Notes</h2>
+          <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content</p>
+        </section>
+    </div>
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-picture-o"></i>
+          <h2>Save Images</h2>
+          <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within BlocBox.</p>
+          </section>
+    </div>
+    <div class="container">
+      <section class="thebox">
+          <i class="fa fa-link"></i>
+          <h2>Add Links</h2>
+          <p>Forget bookmarking sites in your browser. With BlocBox, you can add links, group them and view them from any computer.</p>
+          </section>
+    </div>
+  </section>
+</section>
+
+
+
+
+
+      
+
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $('.center').slick({
+        centerMode: true,
+        centerPadding: '0',
+        slidesToShow: 3,
+        dots:true,
+        focusOnSelect: true,
+        responsive: [
+        {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 1
+          }
+        },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 1
+          }
+        },
+        {
+        breakpoint: 992,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '0',
+          slidesToShow: 3
+          }
+        }
+      ]
+    });
+    });
+  </script>
+
+
+  
+</body>
+
+</html>
