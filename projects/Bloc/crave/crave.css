@@ -116,6 +116,24 @@ p{
 
 
 
+footer{
+    margin:20px auto;
+}
+footer{
+    clear:both;
+}
+footer li{
+    display:inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer ul{
+    margin:0;
+}
+footer h5{
+    margin:15px;
+}
 
 
 
@@ -136,26 +154,18 @@ p{
 .transactions img{
     height:400px;
 }
+@media(max-width:768px){
+    .transactions div{
+        width:100%;
+    }
+    .transactions p{
+        width:90%;
+    }
+    .hero h1{
+        font-size: 48px;
+    }
+}
 
 
 
 
-
-footer{
-    margin:20px auto;
-}
-footer{
-    clear:both;
-}
-footer li{
-    display:inline-block;
-    margin: 0 10px;
-    font-size: 12px;
-    font-weight: 200;
-}
-footer ul{
-    margin:0;
-}
-footer h5{
-    margin:15px
-}

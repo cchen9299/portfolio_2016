@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Hank Chen</title>
+      <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Varela+Round" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/modal.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../css/projects.css"/>
+    </head>
+    <body>
+        <nav>
+            <a href="../../../index.html">
+                <img src="../../../Logo/Logo%20Fattt%20%5BConverted%5D.png" height=50px>
+                <h3>Hank Chen</h3></a>
+            <ul class="right">
+                <li><a href=../../../index.html><h5>Home</h5></a></li>
+                <li><a href=../../../index.html#work><h5>Work</h5></a></li>
+                <li><a href=../../../about.html><h5>About</h5></a></li>
+                <li><a href=doodle.html><h5 class="extraSpace">Doodle Thoughts</h5></a></li>
+            </ul>
+        </nav>
+        <main>
+            <Section class="hero">
+                <div class="curtain">
+                    <h1>Clerks of Works:<br>Dwelling</h1>
+                    <h2>Spring 2014</h>
+                </div>
+                <style>
+                    .hero{
+                        background-image:url(dwelling.png);
+                        width:100%;
+                        min-height:100%;
+                        background-position:center;
+                        background-size: cover;
+                        display:table;
+                    }
+                </style>
+            </section>
+            <section class="breif">
+                <div>
+                    <h2>Project Breif</h2>
+                    <p>The Test Cell Dwelling is a project targeted
+to provide temporary housing to the researching
+staff at the Research Development Complex
+(RDF) in Blacksburg. The project includes four units
+of living quarters with individual bathrooms for one
+professor and three students, an open work space
+and a dinning area. The proposed project is three
+steel frame structures with mostly metal claddings.
+Dark colored concrete and wood finishing are used
+for specific walls to achieve certain spacial qualities
+desired.<br><br>
+This is the first project that I had expressed
+what true beauty in architecture means to me and
+began to formulate my own set of language and
+style; a sense of complex geometrical spaces that
+form not just the interior, but more so the exterior
+space of the project. As a result, each building
+and unit has a unique relationship with another and
+each space is experienced differently. Each space
+is planned through a grid that follows through the
+existing test cell buildings.</p>
+                </div>
+            </section>
+            <div class="row">
+                <h2>Drawings and Photos</h2>
+                      <div class="column">
+                          <div class="column">
+                            <img src="Board%202-1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="Board%202-2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="Board%202-3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="Board%202-4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                          </div>
+                    </div>
+                      <div class="column">
+                          <div class="column">
+                            <img src="DSC_7434.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="DSC_7437.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="DSC_7451.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                          </div>
+                    </div>
+                      <div class="column">
+                          <div class="column">
+                            <img src="dwelling.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+                          </div>
+                    </div>
+                </div>
+            
+            
+            
+            <section class="description">
+                <h3></h3>
+                <p></p>
+            </section>
+
+                    
+            <section id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Board%202-1.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Board%202-2.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Board%202-3.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Board%202-4.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="DSC_7434.JPG">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="DSC_7437.JPG">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="DSC_7451.JPG">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="dwelling.png"  >
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+          </div>
+        </section>
+        
+        </main>
+        <footer>
+            <hr>
+            <h5 class="left">All work © Hank Chen</h5>
+            <ul class="right footerLink">
+                <li class="email">hankchen9299@gmail.com</li>
+                <a href="http://facebook.com/rottenmilk" target="_blank"><li class="fa fa-facebook-square fa-2x"></li></a>
+                <a href="http://instagram.com/3xcheng" target="_blank"><li class="fa fa-instagram fa-2x"></li></a>
+                <a href="http://issuu.com/hankchen39" target="_blank"><li><img src="../../../issuu.png" height='25px'></li></a>
+            </ul>
+        </footer>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../../../scripts/modal.js"></script>
+    </body>
+</html>

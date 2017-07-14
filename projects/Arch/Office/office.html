@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Hank Chen</title>
+      <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Varela+Round" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="../../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../css/modal.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../css/projects.css"/>
+    </head>
+    <body>
+        <nav>
+            <a href="../../../index.html">
+                <img src="../../../Logo/Logo%20Fattt%20%5BConverted%5D.png" height=50px>
+                <h3>Hank Chen</h3></a>
+            <ul class="right">
+                <li><a href=../../../index.html><h5>Home</h5></a></li>
+                <li><a href=../../../index.html#work><h5>Work</h5></a></li>
+                <li><a href=../../../about.html><h5>About</h5></a></li>
+                <li><a href=doodle.html><h5 class="extraSpace">Doodle Thoughts</h5></a></li>
+            </ul>
+        </nav>
+        <main>
+            <Section class="hero">
+                <div class="curtain">
+                    <h1>Clerks of Works: Office</h1>
+                    <h2>Fall 2013</h>
+                </div>
+                <style>
+                    .hero{
+                        background-image:url(Clerks%20Work.jpg);
+                        width:100%;
+                        min-height:100%;
+                        background-position:center;
+                        background-size: cover;
+                        display:table;
+                    }
+                </style>
+            </section>
+            <section class="breif">
+                <div>
+                    <h2>Project Breif</h2>
+                    <p>The Clerk’s Office is part of the complex
+of the RDF, Research Development Complex,
+project. The purpose of the building is to provide
+office space that oversees the complex. It houses
+a main office space, a rest space and a restroom.
+This is the project where I began questioning the
+importance of an architect versus that of an engineer.
+What values architects may add to a project
+by holding certain visions that eventually forms into
+spaces of unique experience.<br><br>
+Originally a simple rectangular plan was
+chosen for a focus on how the building operates
+such as the orientation of the building, the roof
+angle and extension, solar mass, passive heating
+and cooling, connection between materials and
+other sustainable elements. The question of spacial
+quality rises later in the project which led to the
+division of the building and formation of the garden.</p>
+                </div>
+            </section>
+            <div class="row">
+                <h2>Drawings and renderings</h2>
+                      <div class="column">
+                          <div class="column">
+                            <img src="Site.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="1-4%20elevation.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="1-4%20elevation%202.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                          </div>
+                    </div>
+                      <div class="column">
+                          <div class="column">
+                            <img src="Floor.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="perspective%20section.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                          </div>
+                    </div>
+                      <div class="column">
+                          <div class="column">
+                            <img src="Clerks%20Work.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                          </div>
+                          <div class="column">
+                            <img src="main.jpg" onclick="openModal();currentSlide(7))" class="hover-shadow">
+                          </div>
+                    </div>
+                </div>
+            
+            
+            
+            <section class="description">
+                <h3></h3>
+                <p></p>
+            </section>
+
+                    
+            <section id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Site.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="1-4%20elevation.png">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="1-4%20elevation%202.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Floor.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="perspective%20section.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="Clerks%20Work.jpg">
+                </div>
+                <div class="mySlides">
+                  <div class="numbertext"></div>
+                    <img src="main.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+          </div>
+        </section>
+        
+        </main>
+        <footer>
+            <hr>
+            <h5 class="left">All work © Hank Chen</h5>
+            <ul class="right footerLink">
+                <li class="email">hankchen9299@gmail.com</li>
+                <a href="http://facebook.com/rottenmilk" target="_blank"><li class="fa fa-facebook-square fa-2x"></li></a>
+                <a href="http://instagram.com/3xcheng" target="_blank"><li class="fa fa-instagram fa-2x"></li></a>
+                <a href="http://issuu.com/hankchen39" target="_blank"><li><img src="../../../issuu.png" height='25px'></li></a>
+            </ul>
+        </footer>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../../../scripts/modal.js"></script>
+    </body>
+</html>

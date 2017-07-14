@@ -78,9 +78,19 @@
 .mySlides {
   display: none;
     margin:0 auto;
-    height:600px;
-    width:1000px;
+    width:90%;
     text-align: center;
+}
+.mySlides img{
+    max-height: 600px;
+}
+@media (min-width:768px){
+    .mySlides img{
+    }
+}
+@media (min-width:1200px){
+    .mySlides img{
+    }
 }
 
 /* Next & previous buttons */

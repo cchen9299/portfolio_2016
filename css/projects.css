@@ -84,6 +84,9 @@ h2{
         width:90%;
         margin: 0 auto;
     }
+    .breif div{
+        width:90%;
+    }
     
 }
 @media (min-width:768px){

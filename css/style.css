@@ -113,6 +113,26 @@ footer h5{
         background-color:rgba(255,255,255,.6);
         padding:0;
     }
+    .box{
+        width:100%;
+    }
+    footer ul, footer h5{
+        width:100%;
+        margin:0 auto;
+        text-align: center
+    }
+    footer ul{
+        padding:0
+    }
+    footer li{
+        margin:0 auto;
+    }
+    .email{
+        width:100%;
+    }
+    footer li, footer h5{
+        margin:0 !important;
+    }
 }
 @media (min-width: 768px){
     section{
