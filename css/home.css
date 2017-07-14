@@ -95,8 +95,9 @@ main{
 }
 
 .thesis{
-    background-image:url(../projects/Arch/Thesis/thesis.jpg);
+    background-image:url(../projects/arch/thesis/thesis.jpg);
     background-position:center;
+    
 }
 .dwelling{
     background-image:url(../projects/arch/Dwelling/dwelling.png);
