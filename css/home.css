@@ -113,7 +113,7 @@ main{
     background-image:url(../projects/Arch/511/511.jpg);
 }
 .warehouse{
-    background-image:url(../projects/arch/Warehouse/Clerks%20Warehouse.jpg);
+    background-image:url(../projects/Arch/Warehouse/Clerks%20Warehouse.jpg);
 }
 .office{
     background-image:url(../projects/Arch/Office/Clerks%20Work.jpg);
@@ -129,21 +129,21 @@ main{
 }
 
 .BlocShop{
-    background-image:url(../projects/Bloc/shop/Blocshop2.jpg);
+    background-image:url(../projects/Bloc/shop/blocshop2.jpg);
 }
 .BlocJams{
     background-image:url(../projects/Bloc/jams/BlocJams.jpg);
     background-position:right;
 }
 .BlocBox{
-    background-image:url(../projects/Bloc/box/Blocbox.jpg);
+    background-image:url(../projects/Bloc/box/blocbox.jpg);
 }
 .PayCrave{
     background-image:url(../projects/Bloc/crave/PayCrave.png);
     background-position:center;
 }
 .BlocStarter{
-    background-image:url(../projects/Bloc/starter/BlocStarter.jpg);
+    background-image:url(../projects/Bloc/starter/blocStarter.jpg);
     background-position:center;
 }
 
