@@ -1,64 +1,94 @@
+body{
+    //background-color:black;
+}
 main{
     height:100%;
 }
 .hero{
-    background-image:url(../home1.jpg);
-    //background-color: #b3ffff;
+    background-image:url(../home2.jpg);
     width:100%;
     min-height:100%;
     background-position:center;
     background-size: cover;
-    display:table
+    display:table;
+    height:100%;
     
 }
 .hero h1, .hero p{
     margin:0 auto;
 }
-.hero h1{
-    color:white;
-    opacity:.5;
+.firstLine{
+    color:rgba(255,255,255,1);
+    font-family: "lato",Helvetica, Arial, sans-serif;
+    opacity:;
     margin:0 auto;
 }
-p{
-    color:rgba(255,255,255,.8);
+.secondLine{
+    color:rgba(255,255,255,.5);
 }
 .hero .backdrop{
-    background-color:rgba(0,0,0,.7);
     padding: 50px 0;
-    width:60%;
     margin:auto;
     vertical-align: middle;
     display:block;
 }
-.floater{
-    height:150px;
+.firstTitle{
+    background-color:orangered;
+    color:white;
+}
+.secondTitle{
+    background-color:orange;
+    color:white;
+}
+.title h1{
+    font-size:120px;
+    font-weight:100;
+    padding:0;
+    text-align: left;
+    padding:0;
+    margin:0;
 }
 
-
-.workContainers{
-    margin: 0 0 50px;
-}
 .workBlock{
-    padding: 50px 0;
+    width:100%;
+    padding:0;
+    height:2000px;
+    background:linear-gradient(black,white);
+}
+.box{
+    width:70%;
+    margin:0 auto;
 }
 .work{
     float:left;
-    height:200px;
-    width:200px;
+    height:450px;
+    width:33%;
     background-size: cover;
     text-align: center;
-    margin:1px;
+    margin:.16% ;
 }
 .work .curtain{
     width:100%;
     height:100%;
-    opacity:0;
     background-color:black;
     color:white;
+    opacity:0;
     transition:.5s;
     cursor:pointer;
-    line-height: 160px;
+    line-height: 400px;
     display:inline-block;
+}
+.curtain h3{
+    height:0
+}
+.secondContainer .work{
+    background-position:center;
+}
+.curtain p{
+    font-size:18px;
+    width:100%;
+    text-align: center;
+    margin:30px auto;
 }
 .curtain:hover{
     opacity:.8;
@@ -98,46 +128,43 @@ p{
 }
 
 .BlocShop{
-    background-image:url(../projects/bloc/shop/Blocshop.png);
+    background-image:url(../projects/bloc/shop/Blocshop2.jpg);
 }
 .BlocJams{
-    background-image:url(../projects/bloc/jams/BlocJams.png);
+    background-image:url(../projects/bloc/jams/BlocJams.jpg);
+    background-position:right;
 }
 .BlocBox{
-    background-image:url(../projects/bloc/box/Blocbox.png);
+    background-image:url(../projects/bloc/box/Blocbox.jpg);
 }
 .PayCrave{
     background-image:url(../projects/bloc/crave/PayCrave.png);
+    background-position:center;
 }
 .BlocStarter{
-    background-image:url(../projects/bloc/starter/BlocStarter.png);
+    background-image:url(../projects/bloc/starter/BlocStarter.jpg);
+    background-position:center;
 }
-
 
 
 footer{
-    clear:both;
+    width:70%;
 }
-footer li{
-    display:inline-block;
-    margin: 0 10px;
-    font-size: 12px;
-    font-weight: 200;
-}
-footer ul{
-    margin:0;
-}
-footer h5{
-    margin:15px
-}
+
 
 
 @media(max-width:768px){
     .hero .backdrop{
-        width:80%;
+        width:100%;
     }
     .floater{
-        height:140px;
+        height:100px;
+    }
+    .work{
+        width:100%;
+    }
+    .title{
+        display:none;
     }
     
 }
@@ -146,25 +173,25 @@ footer h5{
     .hero h1, .hero p{
         width:80%;
     }
-    .workContainers{
-        width:50%
-    }
     .hero .backdrop{
-        width:80%;
+        width:100%;
     }
     .floater{
-        height:40px;
+        height:150px;
+    }
+    .work{
+        width:49%
     }
 }
 @media(min-width:1200px){
-    .workContainers{
-        width:50%
-    }
     .hero .backdrop{
-        width:60%;
+        width:100%;
     }
     .floater{
-        height:170px;
+        height:220px;
+    }
+    .work{
+        width:33%
     }
 }
 

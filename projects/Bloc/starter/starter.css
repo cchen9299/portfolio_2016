@@ -1,0 +1,190 @@
+
+.hero{
+    background-image:url(winter_workspace_high_res.jpg);
+    width:100%;
+    min-height:100%;
+    background-position:center;
+    background-size: cover;
+    display:table;
+    color:white;
+    text-align: center;
+}
+.hero div{
+    width:80%;
+    margin:0% auto 0;
+    padding:25% 0;
+}
+@media (min-width: 1200px){
+    .hero div{
+        width:60%;
+    }
+}
+.hero h1{
+    padding:0;
+    margin:0;
+    font-weight:400;
+}
+.hero h3{
+    font-family: "lato",Helvetica, Arial, sans-serif;
+    font-size:36px;
+    font-weight:100;
+    padding:0;
+    margin:0;
+}
+.hero a{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionOne h3{
+    padding:0;
+    margin:0 auto;
+}
+p{
+    margin:1% auto;
+}
+.sectionOne{
+    background-color:#fdf2b0;
+    padding:100px 0;
+    width:100%;
+    color:black;
+    height:100%;
+}
+.sectionOne > div{
+    width:60%;
+    height:100%;
+    margin: auto;
+}
+
+@media(min-width: 768px){
+    .sectionOne > div{
+        width:80%;
+    }
+    .sectionOne > div >div{
+        width: 50%;
+    }
+    .logo{
+        width:80%;
+        position:relative;
+        top:50%;
+    }
+}
+@media(min-width: 1200px){
+    .sectionOne > div{
+        width:60%;
+    }
+    .sectionOne > div >div{
+        width: 50%;
+    }
+    .logo{
+        position:relative;
+        top:60%
+    }
+}
+@media(max-width:768px){
+    .sectionOne > div{
+        width:80%;
+        text-align: center
+    }
+    .imageContainer img{
+        margin:0 0 50px;
+    }
+}
+.imageContainer {
+    width:100%;
+    margin:0 auto;
+}
+
+
+
+.sectionTwo{
+    margin: 100px auto;
+}
+.sectionTwo div{
+    text-align: center;
+}
+.sectionTwo img{
+    width: 100%;
+    box-shadow:10px 10px 50px #999999;
+    margin:50px 0 0;
+}
+.sectionTwo div{
+    margin: 50px auto 0;
+}
+
+/*
+.sectionThree{
+    background-color:#eeeeee;
+    width:100%;
+    padding:100px 0;
+}
+.sectionThree div{
+    text-align: center;
+}
+@media(max-width:768px){
+    .sectionThree div{
+        width:90%;
+    }
+}
+@media(min-width:768px){
+    .sectionThree div{
+        width:80%;
+    }
+}
+@media(min-width:1200px){
+    .sectionThree div{
+        width:60%;
+    }
+}
+.sectionThree img{
+    box-shadow:10px 10px 50px #999999;
+    margin:50px 0 0;
+    width:100%;
+}
+.sectionThree div{
+    margin: 50px auto 0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin:20px auto;
+}
+footer{
+    clear:both;
+}
+footer li{
+    display:inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer ul{
+    margin:0;
+}
+footer h5{
+    margin:15px
+}

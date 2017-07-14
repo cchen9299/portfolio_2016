@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8">
+      <title>Hank Chen</title>
+      <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Varela+Round" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../../../slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="../../../slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="crave.css"
+    </head>
+    <body>
+        <nav>
+            <a href="../../../index.html">
+                <img src="../../../Logo/Logo%20Fattt%20%5BConverted%5D.png" height=50px>
+                <h3>Hank Chen</h3></a>
+            <ul class="right">
+                <li><a href=../../../index.html><h5>Home</h5></a></li>
+                <li><a href=../../../index.html#work><h5>Work</h5></a></li>
+                <li><a href=../../../contact.html><h5>About</h5></a></li>
+                <li><a href=doodle.html><h5 class="extraSpace">Doodle Thoughts</h5></a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="hero">
+                <div>
+                    <h1>Paycrave</h1>
+                    <h3>Your Favorite Food Trucks Right In Your Hand.</h3>
+                </div>
+            </section>
+            <section class="description">
+                <div class="theme">
+                    <div class="left imageContainer">
+                        <span class="verticalAlign"></span>
+                        <img src="Vector%20Smart%20Object.png" class="paycraveLogo">
+                    </div>
+                    <div class="right">
+                        <h3>Theme</h3>
+                        <p>Paycrave has a purpose very similar to Github and Yelp. Similar features including locating food services, ordering and paying at these services, rating these services and tracking users actions and histories. The major difference is its focus on food trucks. Thus, the overall color theme is a warm red. In comparison to a green or a blue theme, the red promotes appetite. The softer tone of red is derived from the rather young and upgoing ideas of food trucks.</p>
+                
+                    </div>
+                </div>
+                
+                <div class="clear"></div>
+            </section>
+            <section class="locate">
+                <div class="">
+                    <span class="verticalAlign"></span>
+                    <h3>Navigation Design</h3>
+                    <p>The navigation pages uses a pretty conventional format with a notecard list and a map pin list layout. Upon selecting a pin on the map, a more detailed card pops up from the bottom of the screen. Enter into the full detail page either via clicking the card list or clicking the detailed card at map view.</p>
+                </div>
+                <div class="">
+                    <img src="hw_Page_5.jpg">
+                    <img src="hw_Page_6.jpg">
+                    <img src="hw_Page_3.jpg">
+                    <img src="hw_Page_2.jpg">
+                </div>
+                <div class="clear"></div>
+            </section>
+            
+            <section class="transactions">
+                <div>
+                    <h3>Transaction Pages</h3>
+                    <p>The most remarkable or different part about what I designed for transaction pages is the placement of the rating. Often times, users would have to go back into the app and search for their transactions after they have gotten their services. I am proposing to promt the rating for the last transaction when a new order has been placed as seen in the last picture.</p>
+                </div>
+                <div>
+                    <img src="hw2_Page_1.jpg">
+                    <img src="hw2_Page_2.jpg">
+                    <img src="hw2_Page_3.jpg">
+                    <img src="hw2_Page_6.jpg">
+                </div>
+            </section>
+        
+        
+        </main>
+        <footer>
+            <h5 class="left">All work © Hank Chen</h5>
+            <ul class="right footerLink">
+                <li>cchen9299@gmail.com</li>
+                <a href="http://facebook.com/rottenmilk" target="_blank"><li class="fa fa-facebook-square fa-2x"></li></a>
+                <a href="http://instagram.com/3xcheng" target="_blank"><li class="fa fa-instagram fa-2x"></li></a>
+                <a href="http://issuu.com/hankchen39" target="_blank"><li><img src="../../../issuu.png" height='25px'></li></a>
+            </ul>
+        </footer>
+        
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../../../slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slidesDiv1').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    fade: true,
+                    asNavFor: '.slidesDiv2'
+                })
+                $('.slidesDiv2').slick({
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    asNavFor: '.slidesDiv1',
+                    dots: true,
+                    arrows:true,
+                    centerMode: true,
+                    focusOnSelect: true
+                });
+            });
+        </script>
+    </body>
+</html>

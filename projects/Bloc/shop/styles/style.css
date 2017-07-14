@@ -1,0 +1,160 @@
+h1{
+    font-family:"Varela Round", sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 5em;
+    font-stretch:extra-expanded;
+        
+    font-weight:300;
+}
+
+h3{
+    font-size:2em;
+    letter-spacing: 3px;
+}
+h3, h5, p, li, ul, h6{
+    font-family:"lato", sans-serif;
+    font-weight:300;
+}
+
+h5{
+  font-size: 1.5em  
+}
+
+h7{
+    font-family:"lato", sans-serif;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    font-family:"lato", sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#e4c89b;
+}
+.button{
+    font-size:2em;
+    border: 2px white solid;
+    padding:5px 40px 7px 40px;
+}
+.half-column{
+    width:42%;
+    margin: 5% 2% 0 5%;
+    float:left;
+}
+html,body{
+    height:100%;
+}
+.page-wrap {
+  min-height: 100%;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+/*---------- Nav Bar -----------*/
+
+.navBar{
+    background-color:rgba(0,0,0,.6);
+    width:100%;
+    height:3.5em;
+    z-index: 1;
+}
+.ion-ios-cart:hover{
+    cursor:pointer;
+    color:black;
+    transform:1s
+}
+.numberItems{
+    margin:0;
+    padding:0;
+    float:right;
+    font-size:.4em;
+    color:white;
+    height:22px;
+    width:22px;
+    border-radius: 25px;
+    background-color:#f7a537;
+    font-weight:500;
+    position:relative;
+    top:20px;
+    right:5px;
+    display:none
+}
+.cartPanel{
+    width:100px;
+    height:100px;
+    float:right;
+    clear:both;
+}
+.item{
+    width:350px;
+    position:relative;
+    right:250px;
+    
+}
+.item img{
+    float:left;
+}
+.leftColumn{
+    display:block;
+    text-align: left;
+    margin:
+}
+
+/*------------ Side Bar -----------*/
+.sideBar{
+    background-color:white;
+    width:200px;
+    position:fixed;
+    -webkit-transition: left 1s;
+    transition: left 1s;
+    left:-200px;
+    z-index: 1;
+    box-shadow: 0 0 5px;
+}
+.sideBar a{
+    color:black;
+}
+.sideBar li{
+    list-style: none;
+    padding:10px 30px ;
+    position:relative;
+    -webkit-transition: background .25s;
+    transition: background .25s;
+    z-index: 1;
+}
+.sideBar li:hover{
+    right:10px;
+    background-color:rgba(0,0,0,.03);
+}
+
+.sideBar > ul{
+    padding:25px 0;
+    margin:0;
+}
+.sideBar ul ul{
+    text-align: right;
+    padding: 20px 0;
+}
+.sideBar h7{
+    font-weight:500;
+    padding:0 30px 10px;
+}
+
+/*----------- Button ------------*/
+
+.designButton:hover{
+    cursor:pointer;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+}
+.designButton:active{
+    background-color:#f9c073;
+    pointer-events: none;
+}

@@ -1,0 +1,161 @@
+
+.hero{
+    background-image:url(hero2.jpg);
+    width:100%;
+    min-height:100%;
+    background-position:center;
+    background-size: cover;
+    display:table;
+    color:white;
+}
+.hero div{
+    width:80%;
+    margin:0% auto 0;
+    padding:25% 0;
+}
+@media (min-width: 1200px){
+    .hero div{
+        width:60%;
+    }
+}
+.hero h1{
+    padding:0;
+    margin:0;
+}
+.hero h3{
+    font-family: "lato",Helvetica, Arial, sans-serif;
+    font-size:36px;
+    font-weight:100;
+    padding:0;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.description h3{
+    padding:0;
+    margin:0 auto;
+}
+p{
+    margin:1% auto;
+}
+.description{
+    background-color:#ff6354;
+    padding:100px 0;
+    width:100%;
+    color:white;
+    height:100%;
+}
+.description > div{
+    width:60%;
+    height:100%;
+    margin: auto;
+}
+
+@media(min-width: 768px){
+    .description > div{
+        width:80%;
+    }
+    .description > div >div{
+        width: 50%;
+    }
+}
+@media(min-width: 1200px){
+    .description > div{
+        width:60%;
+    }
+    .description > div >div{
+        width: 50%;
+    }
+}
+@media(max-width:768px){
+    .description > div{
+        width:80%;
+    }
+    .imageContainer{
+        display:none;
+    }
+}
+.imageContainer {
+    width:100%;
+    margin:0 auto;
+    height:250px;
+}
+.paycraveLogo{
+    margin:0 auto;
+}
+
+
+
+.locate{
+    margin: 100px auto;
+    color:#444444;
+}
+.locate div{
+    text-align: center;
+}
+.locate img{
+    height:400px;
+}
+.locate div{
+    margin: 50px auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.transactions{
+    background-color:#eeeeee;
+    width:100%;
+    padding:100px 0;
+    text-align: center
+}
+.transactions div{
+    width:60%;
+    margin: 50px auto;
+}
+.transactions img{
+    height:400px;
+}
+
+
+
+
+
+footer{
+    margin:20px auto;
+}
+footer{
+    clear:both;
+}
+footer li{
+    display:inline-block;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+footer ul{
+    margin:0;
+}
+footer h5{
+    margin:15px
+}
