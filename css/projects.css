@@ -110,6 +110,7 @@ h2{
     background-color:rgba(0,0,0,.9) !important;
 }
 .mySlides  img{
+    max-height:600px;
     height:100%;
     
 }

@@ -82,7 +82,6 @@
     text-align: center;
 }
 .mySlides img{
-    max-height: 600px;
 }
 @media (min-width:768px){
     .mySlides img{
