@@ -109,7 +109,10 @@ p{
 }
 
 
-
+.sectionZero{
+    margin: 100px auto;
+    text-align: center;
+}
 .sectionTwo{
     margin: 100px auto;
 }

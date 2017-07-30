@@ -38,13 +38,31 @@
 }
 
 
+.block{
+    margin: 100px auto;
+    text-align: center;
+}
 
+.two{
+    background-color:#e3d6c1;
+    width:100%;
+    padding:100px 0;
+}
+.two div{
+    margin: 0 auto;
+}
+.two p{
+    margin: 0px 0 50px;
+}
+.one img{
+    margin: 50px 0;
+}
 
-
-
-
-
-
+.three {
+    background-color:#eeeeee;
+}.three p{
+    margin: 1% 0 100px;
+}
 
 
 
@@ -59,7 +77,6 @@ p{
     margin:1% auto;
 }
 .sectionOne{
-    background-color:#e3d6c1;
     padding:100px 0;
     width:100%;
     color:black;
@@ -78,9 +95,6 @@ p{
     .sectionOne > div >div{
         width: 50%;
     }
-    .logo{
-        width:70%;
-    }
 }
 @media(min-width: 1200px){
     .sectionOne > div{
@@ -89,22 +103,14 @@ p{
     .sectionOne > div >div{
         width: 50%;
     }
-    .logo{
-        width:50%
-    }
 }
 @media(max-width:768px){
     .sectionOne > div{
         width:80%;
     }
-    .imageContainer{
-        display:none;
+    .imageContainer img{
+        width:100%;
     }
-}
-.imageContainer {
-    width:100%;
-    margin:0 auto;
-    height:250px;
 }
 
 
@@ -115,13 +121,43 @@ p{
 .sectionTwo div{
     text-align: center;
 }
+@media(max-width:768px){
+    .sectionTwo img{
+        width:100%;
+    }
+    .aThird{
+        width:100% !important;
+    }
+    .half{
+        width:100% !important;
+
+    }
+}
+@media(min-width:768px){
+    .sectionTwo img{
+        width:60%;
+    }
+    .aThird{
+        width:33% !important;
+        margin: 10px 0 0 !important;
+    }
+    .half{
+        width:49% !important;
+
+    }
+}
 .sectionTwo img{
-    width: 100%;
     box-shadow:10px 10px 50px #999999;
     margin:50px 0 0;
 }
 .sectionTwo div{
     margin: 50px auto 0;
+}
+.insideText{
+    margin: 100px 0 0;
+}
+.first{
+    margin: 50px 0 0 !important;
 }
 
 
@@ -134,17 +170,17 @@ p{
     text-align: center;
 }
 @media(max-width:768px){
-    .sectionThree div{
+    .two div, .three div{
         width:90%;
     }
 }
 @media(min-width:768px){
-    .sectionThree div{
+    .two div, .three div{
         width:80%;
     }
 }
 @media(min-width:1200px){
-    .sectionThree div{
+    .two div, .three div{
         width:60%;
     }
 }
@@ -157,8 +193,11 @@ p{
     margin: 50px auto 0;
 }
 
-
-
+.sectionThree a{
+    text-align: center;
+    margin: 0 10px 0;
+    color:Orange;
+}
 
 
 

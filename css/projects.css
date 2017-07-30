@@ -112,7 +112,6 @@ h2{
 .mySlides  img{
     max-height:600px;
     height:100%;
-    
 }
 .next:hover,.prev:hover{
     background-color:grey;

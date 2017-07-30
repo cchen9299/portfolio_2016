@@ -38,29 +38,43 @@
 }
 
 
+.two{
+    background-color:#597584;
+    color:white;
+}
+.three{
+    background-color:#eeeeee;
+    width:100%;
+}
+
+.block{
+    text-align: center;
+    padding: 100px 0;
+}
 
 
 
+.right img{
+    float:right;
+    clear:both;
+}
+.left img{
+    float:left;
+    clear:both;
+}
 
-
-
-
-
-.sectionOne h3{
+.sided h3{
     padding:0;
     margin:0 auto;
 }
 p{
     margin:1% auto;
 }
-.sectionOne{
-    background-color:#597584;
-    padding:100px 0;
+.sided{
     width:100%;
-    color:white;
     height:100%;
 }
-.sectionOne > div{
+.sided > div{
     width:60%;
     margin: 0 auto;
 }
@@ -71,7 +85,7 @@ p{
     width:80%;
 }
 @media(max-width:768px){
-    .sectionOne > div{
+    .sided > div{
         width:80%;
     }
     .left{
@@ -83,13 +97,16 @@ p{
     .right{
         float:none;
     }
+    .imageContainer img{
+        width:100%;
+    }
 }
 
 @media(min-width: 768px){
-    .sectionOne > div{
+    .sided > div{
         width:80%;
     }
-    .sectionOne > div >div{
+    .sided > div >div{
         width: 50%;
     }
     .logo{
@@ -97,10 +114,10 @@ p{
     }
 }
 @media(min-width: 1200px){
-    .sectionOne > div{
+    .sided > div{
         width:60%;
     }
-    .sectionOne > div >div{
+    .sided > div >div{
         width: 50%;
     }
     .logo{
@@ -108,15 +125,17 @@ p{
     }
 }
 
+.modalBlock a{
+    color:orange
+}
 
-
-.sectionTwo{
+.modalBlock{
     margin: 100px auto;
 }
-.sectionTwo div{
+.modalBlock div{
     text-align: center;
 }
-.sectionTwo img{
+.modalBlock img{
     width:20%;
     box-shadow:5px 5px 20px #999999;
     margin:50px 0 0;
@@ -126,8 +145,22 @@ p{
     cursor:pointer;
     transition:all .3s;
 }
-.sectionTwo div{
+.modalBlock div{
     margin: 50px auto 0;
+}@media(max-width:768px){
+    .modalBlock > div{
+        width: 90%
+    }
+}
+@media(min-width: 768px){
+    .modalBlock > div{
+        width: 80%
+    }
+}
+@media(min-width: 1200px){
+    .modalBlock > div{
+        width: 60%
+    }
 }
 
 .mySlides  img{
@@ -136,9 +169,7 @@ p{
 
 
 .sectionThree{
-    background-color:#eeeeee;
     width:100%;
-    padding:100px 0;
 }
 .sectionThree div{
     text-align: center;
@@ -160,14 +191,18 @@ p{
 }
 .sectionThree img{
     box-shadow:10px 10px 50px #999999;
-    margin:50px 0 0;
-    width:100%;
+    margin:1% 1%;
+    width:60%;
 }
 .sectionThree div{
     margin: 50px auto 0;
 }
 
-
+.sectionThree a{
+    text-align: center;
+    margin: 0 10px 0;
+    color:#597584;
+}
 
 
 

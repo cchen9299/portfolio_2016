@@ -139,8 +139,9 @@ main{
     background-image:url(../projects/Bloc/box/blocbox.jpg);
 }
 .PayCrave{
-    background-image:url(../projects/Bloc/crave/PayCrave.png);
+    background-image:url(../projects/Bloc/crave/display.jpg);
     background-position:center;
+    background-size: cover;
 }
 .BlocStarter{
     background-image:url(../projects/Bloc/starter/blocStarter.jpg);
