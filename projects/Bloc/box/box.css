@@ -51,7 +51,24 @@
     text-align: center;
     padding: 100px 0;
 }
-
+.theme div{
+    margin: 10px 0 50px;
+}
+.theme img{
+    width:100%;
+}
+.extraTB{
+    padding: 200px 0
+}
+.extraT{
+    padding: 50px 0 0;
+}
+.nest img{
+    width:33% !important;
+}
+.logo1{
+    float:left;
+}
 
 
 .right img{
@@ -75,7 +92,6 @@ p{
     height:100%;
 }
 .sided > div{
-    width:60%;
     margin: 0 auto;
 }
 .imageContainer img{
@@ -106,22 +122,22 @@ p{
     .sided > div{
         width:80%;
     }
-    .sided > div >div{
-        width: 50%;
-    }
     .logo{
         width:70%;
+    }
+    .imageContainer img{
+        width:100%;
     }
 }
 @media(min-width: 1200px){
     .sided > div{
         width:60%;
     }
-    .sided > div >div{
-        width: 50%;
-    }
     .logo{
         width:50%
+    }
+    .imageContainer img{
+        width:100%;
     }
 }
 
@@ -130,7 +146,7 @@ p{
 }
 
 .modalBlock{
-    margin: 100px auto;
+    margin: 0 auto 100px;
 }
 .modalBlock div{
     text-align: center;

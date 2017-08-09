@@ -62,19 +62,21 @@ p{
     width:100%;
     color:black;
     height:100%;
+    text-align: center;
 }
 .sectionOne > div{
     width:60%;
     height:100%;
     margin: auto;
 }
+.sectionOne img{
+    margin:50px 0 0;
+    width:100%;
+}
 
 @media(min-width: 768px){
     .sectionOne > div{
         width:80%;
-    }
-    .sectionOne > div >div{
-        width: 50%;
     }
     .logo{
         width:80%;
@@ -85,9 +87,6 @@ p{
 @media(min-width: 1200px){
     .sectionOne > div{
         width:60%;
-    }
-    .sectionOne > div >div{
-        width: 50%;
     }
     .logo{
         position:relative;
