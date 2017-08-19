@@ -57,6 +57,14 @@ nav li{
 nav h3, nav img{
     float:left;
 }
+@media(max-width:768px){
+    nav img{
+        display:none !important;
+    }
+    nav .extraSpace{
+        display:none !important;
+    }
+}
 nav .extraSpace{
     padding: 0 0 0 20px;
 }

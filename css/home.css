@@ -147,6 +147,10 @@ main{
     background-image:url(../projects/Bloc/starter/blocStarter.jpg);
     background-position:center;
 }
+.tapeMeasure{
+    background-image:url(../projects/tape_measure/icon.jpg);
+    background-position:center;
+}
 
 
 footer{
