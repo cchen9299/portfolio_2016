@@ -1,0 +1,195 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1920px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u104_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1080px;
+}
+#u104 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1080px;
+}
+#u105 {
+  position:absolute;
+  left:2px;
+  top:532px;
+  width:1916px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u106_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1918px;
+  height:1080px;
+}
+#u106 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1918px;
+  height:1080px;
+}
+#u107 {
+  position:absolute;
+  left:2px;
+  top:532px;
+  width:1914px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u108_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1000px;
+  height:324px;
+}
+#u108 {
+  position:absolute;
+  left:460px;
+  top:523px;
+  width:1000px;
+  height:324px;
+  font-size:30px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u109 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1000px;
+  word-wrap:break-word;
+}
+#u110_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:592px;
+  height:46px;
+}
+#u110 {
+  position:absolute;
+  left:661px;
+  top:233px;
+  width:592px;
+  height:46px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:40px;
+  color:#FFFFFF;
+  text-align:center;
+}
+#u111 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:592px;
+  white-space:nowrap;
+}
+#u112 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:0px;
+}
+#u113_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+}
+#u113 {
+  position:absolute;
+  left:965px;
+  top:0px;
+  width:955px;
+  height:100px;
+  font-family:'DIN Next LT Pro Bold', 'DIN Next LT Pro';
+  font-weight:700;
+  font-style:normal;
+  font-size:30px;
+  color:#FFFFFF;
+}
+#u114 {
+  position:absolute;
+  left:2px;
+  top:32px;
+  width:951px;
+  word-wrap:break-word;
+}
+#u115_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+}
+#u115 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+  opacity:0.5;
+  font-family:'DIN Next LT Pro Bold', 'DIN Next LT Pro';
+  font-weight:700;
+  font-style:normal;
+  font-size:30px;
+  color:#FFFFFF;
+}
+#u116 {
+  position:absolute;
+  left:2px;
+  top:32px;
+  width:951px;
+  word-wrap:break-word;
+}
+#u117_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:150px;
+  height:150px;
+}
+#u117 {
+  position:absolute;
+  left:882px;
+  top:328px;
+  width:150px;
+  height:150px;
+}
+#u118 {
+  position:absolute;
+  left:2px;
+  top:67px;
+  width:146px;
+  visibility:hidden;
+  word-wrap:break-word;
+}

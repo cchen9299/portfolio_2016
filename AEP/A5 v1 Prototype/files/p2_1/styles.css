@@ -1,0 +1,169 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:1920px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u91_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1080px;
+}
+#u91 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1920px;
+  height:1080px;
+}
+#u92 {
+  position:absolute;
+  left:2px;
+  top:532px;
+  width:1916px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u93_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:726px;
+  height:252px;
+}
+#u93 {
+  position:absolute;
+  left:965px;
+  top:459px;
+  width:726px;
+  height:252px;
+  font-size:30px;
+}
+#u94 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:726px;
+  word-wrap:break-word;
+}
+#u95_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:726px;
+  height:46px;
+}
+#u95 {
+  position:absolute;
+  left:965px;
+  top:369px;
+  width:726px;
+  height:46px;
+  font-family:'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:40px;
+}
+#u96 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:726px;
+  white-space:nowrap;
+}
+#u97 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:0px;
+}
+#u98_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+}
+#u98 {
+  position:absolute;
+  left:965px;
+  top:0px;
+  width:955px;
+  height:100px;
+  opacity:0.5;
+  font-family:'DIN Next LT Pro Bold', 'DIN Next LT Pro';
+  font-weight:700;
+  font-style:normal;
+  font-size:30px;
+  color:#FFFFFF;
+}
+#u99 {
+  position:absolute;
+  left:2px;
+  top:32px;
+  width:951px;
+  word-wrap:break-word;
+}
+#u100_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+}
+#u100 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:955px;
+  height:100px;
+  font-family:'DIN Next LT Pro Bold', 'DIN Next LT Pro';
+  font-weight:700;
+  font-style:normal;
+  font-size:30px;
+  color:#FFFFFF;
+}
+#u101 {
+  position:absolute;
+  left:2px;
+  top:32px;
+  width:951px;
+  word-wrap:break-word;
+}
+#u102_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:488px;
+  height:868px;
+}
+#u102 {
+  position:absolute;
+  left:234px;
+  top:138px;
+  width:488px;
+  height:868px;
+}
+#u103 {
+  position:absolute;
+  left:2px;
+  top:426px;
+  width:484px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
