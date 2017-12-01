@@ -46,9 +46,10 @@ main a{
 }
 
 .two{
-    background-color:#0ca0da;
+    background-color:#0ca0da;!important
     width:100%;
     padding:100px 0;
+    color:white;
 }
 .two div{
     margin: 0 auto;
@@ -172,7 +173,6 @@ p{
 
 
 .sectionThree{
-    background-color:#eeeeee;
     width:100%;
     padding:100px 0;
 }
