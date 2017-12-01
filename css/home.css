@@ -20,7 +20,6 @@ main{
 .firstLine{
     color:rgba(255,255,255,1);
     font-family: "lato",Helvetica, Arial, sans-serif;
-    opacity:;
     margin:0 auto;
 }
 .secondLine{
@@ -70,9 +69,8 @@ main{
 .work .curtain{
     width:100%;
     height:100%;
-    background-color:black;
-    color:white;
-    opacity:0;
+    background-color:rgba(0,0,0,0);
+    color:rgba(0,0,0,0);
     transition:.5s;
     cursor:pointer;
     line-height: 400px;
@@ -91,7 +89,8 @@ main{
     margin:30px auto;
 }
 .curtain:hover{
-    opacity:.8;
+    background-color:rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
 }
 
 .thesis{
@@ -149,6 +148,10 @@ main{
 }
 .tapeMeasure{
     background-image:url(../projects/tape_measure/icon.jpg);
+    background-position:center;
+}
+.AEP{
+    background-image:url(../projects/AEP/icon.jpg);
     background-position:center;
 }
 
